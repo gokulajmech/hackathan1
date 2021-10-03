@@ -1,0 +1,39 @@
+.header{
+    display:flex;
+    flex-direction: row;
+      justify-content: space-evenly;
+    background:skyblue;
+    
+  }
+  
+  .bconfig{
+    border-radius:5rem;
+     border: 1px solid white;
+  }
+  .bconfig:hover{
+    transform:scale(1.1);
+    color:purple;
+    border: 1px solid orchid;
+  }
+  .bconfig:active{
+    color:blue;
+  }
+  .compose{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .welcome{
+    
+    position:absolute;
+    left: 25%;
+      top: 50%;
+  }
+  .subject{
+    border-top:0px solid red;
+     border-left:0px solid red;
+     border-right:0px solid red;
+    width:25rem;
+    
+  }
+  
+  
